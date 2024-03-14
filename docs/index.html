@@ -1,7 +1,834 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9RR782GM8H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-9RR782GM8H');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="My Resume">
+  <meta name="author" content="Edwin Trejo">
+  <meta name="theme-color" content="#212529" />
+
+  <title>Edwin Trejo Resume</title>
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap-5.3.2-dist/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free-6.4.2-web/css/all.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono&display=swap"
+    rel="stylesheet">
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper dark">
+
+<div class="page-header mt-2 m-4 mb-0 sticky-top bg-body-tertiary shadow rounded">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+      <div class="container-xl">
+        <div class="d-none d-lg-inline-flex">
+          <a class="navbar-brand" href="">Edwin Trejo</a>
+        </div>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content"
+          aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+          <a class="navbar-brand" href="/">Edwin Trejo</a>
+        </div>
+        <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+          <ul class="navbar-nav d-md-inline-flex">
+            <li class="nav-item">
+              <a class="nav-link active" href="#about" data-target="#about"><span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work_experience" data-target="#work_experience"><span>Work</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#leadership_experience"
+                data-target="#leadership_experience"><span>Leadership</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#clubs" data-target="#clubs"><span>Clubs</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education" data-target="#education"><span>Education</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" data-target="#skills"><span>Skills</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#interests" data-target="#interests"><span>Interests</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#awards" data-target="#awards"><span>Awards</span></a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link " href="/documents/public/cv.pdf" target="_blank" rel="noopener"><span>CV</span></a>
+            </li> -->
+          </ul>
+        </div>
+        <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+          <!-- <li class="nav-item">
+              <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search"
+                  aria-hidden="true"></i></a>
+            </li> -->
+          <li class="nav-item dropdown theme-dropdown">
+            <a href="#" class="nav-link" id="btnSwitch" data-toggle="dropdown" aria-haspopup="true"
+              aria-label="Display preferences">
+              <i class="fas fa-moon" aria-hidden="true"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item js-set-theme-light">
+                <span>Light</span>
+              </a>
+              <a href="#" class="dropdown-item js-set-theme-dark">
+                <span>Dark</span>
+              </a>
+              <a href="#" class="dropdown-item js-set-theme-auto dropdown-item-active">
+                <span>Automatic</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+</div>
+
+<div class="page-body" style="padding-left: 1.5rem !important;">
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#top">
+      <span class="d-block d-lg-none display-2">Edwin Trejo</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile mx-auto mb-2" src="images/edwin3.webp" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="text-body-secondary nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="text-body-secondary nav-link js-scroll-trigger" href="#work_experience">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="text-body-secondary nav-link js-scroll-trigger" href="#leadership_experience">Leadership</a>
+        </li>
+        <li class="nav-item">
+          <a class="text-body-secondary nav-link js-scroll-trigger" href="#clubs">Clubs</a>
+        </li>
+        <li class="nav-item">
+          <a class="text-body-secondary nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="text-body-secondary nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="text-body-secondary nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="text-body-secondary nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+        <button class="text-body-secondary nav-link" id="btnSwitch">Toggle dark mode <i
+            class="fa-solid fa-circle-half-stroke"></i>
+        </button>
+      </ul>
+    </div>
+  </nav> -->
+
+  <div class="container-fluid mx-auto p-2" data-bs-spy="scroll" data-bs-target="#navbar-main" tabindex="0">
+
+    <div style="visibility: hidden;">About</div>
+    <section class="resume-section card border-0 p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100 card-body">
+        <h1 class="mb-0 text-body-emphasis user-select-all text-uppercase">Edwin Trejo</h1>
+        <div class="h2 text-body user-select-none non_selectable_field mb-5 text-uppercase">Baltimore, MD</div>
+
+        <p class="lead mb-5">
+
+          <!--
+        I am outgoing and very energetic. I like to focus on the task at hand and accomplish the goal. 
+        I hope to be working with you soon.
+-->
+          <!--
+        <h3>Career Highlights:</h3>
+          <ul class="list-group list-group-flush fa-ul mb-0">
+              <li class="list-group-item">None</li>
+          </ul>
+          -->
+        </p>
+          <!-- <div class="social-icons"> -->
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a class="icon-link icon-link-hover" target="_blank" href="https://www.linkedin.com/in/edwin-t-9356bbaa/">
+                    linkedin
+                    <i class="fab fa-linkedin-in bi" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a class="icon-link icon-link-hover" target="_blank" href="https://github.com/EdwinTrejo">
+                    github
+                    <i class="fab fa-github bi" aria-hidden="true"></i>
+                  </a>
+                </li>
+                          <!--
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          -->
+              </ol>
+            </nav>
+          <!-- </div> -->
+      </div>
+    </section>
+
+    <!-- <hr class="m-0"> -->
+
+    <div style="visibility: hidden;">Work</div>
+    <section class="resume-section card border-0 p-3 p-lg-5 d-flex justify-content-center" id="work_experience">
+      <div class="w-100 card-body">
+        <h2 class="mb-5 text-body text-start text-uppercase">Work Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="text-body mb-0">Software Engineer</h3>
+            <div class="subheading text-body-secondary mb-3">Space Telescope Science Institute</div>
+            <p class="text-body-secondary">
+              I work as a software engineer in conjunction with NASA on short term scheduling software for the
+              recently-launched James Webb Space Telescope (JWST), the future Roman Space Telescope, and the Hubble
+              Space Telescope. My teams also support operations on the Hubble and James Webb telescopes.
+            </p>
+            <p class="text-body-secondary">
+              Go Webb!
+            </p>
+          </div>
+          <div class="resume-date fw-light text-md-right">
+            <span class="text-body-secondary">July 2021 - Present</span>
+            <span class="text-body">·</span>
+            <span class="text-body-tertiary">Current</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="text-body mb-0">Software Co-Op</h3>
+            <div class="subheading text-body-secondary mb-3">United Parcel Service</div>
+            <p class="text-body-secondary">Team member on the ORION project, On Road Integrated Optimization and
+              Navigation
+            <ul class="list-group list-group-flush fa-ul mb-0">
+              <li class="list-group-item">
+                <p class="text-body-secondary">Developed APIs to send and receive data to SQL database using .NET
+                  framework</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-body-secondary">Used agile development and pipeline management using Microsoft DevOps</p>
+              </li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-date fw-light text-md-right">
+            <span class="text-body-secondary">September 2019 - July 2021</span>
+            <span class="text-body">·</span>
+            <span class="text-body-tertiary">1 Year 11 Months</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="text-body mb-0">Software Intern</h3>
+            <div class="subheading text-body-secondary mb-3">United Parcel Service</div>
+            <p class="text-body-secondary">
+            <ul class="list-group list-group-flush fa-ul mb-0">
+              <li class="list-group-item">
+                <p class="text-body-secondary">Maintained Couchbase tools and other custom development tools</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-body-secondary">Programmed in SQL and C#, using XML and JSON for communications</p>
+              </li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-date fw-light text-md-right">
+            <span class="text-body-secondary">June 2019 - August 2019</span>
+            <span class="text-body">·</span>
+            <span class="text-body-tertiary">3 Months</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- <hr class="m-0"> -->
+
+    <div style="visibility: hidden;">Leadership</div>
+    <section class="resume-section card border-0 p-3 p-lg-5 d-flex justify-content-center" id="leadership_experience">
+      <div class="w-100 card-body">
+        <h2 class="mb-5 text-body text-start text-uppercase">Leadership Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="text-body mb-0">Teaching Assistant</h3>
+            <div class="subheading text-body-secondary mb-3">University of Maryland, Baltimore County - College of
+              Engineering and
+              Information Technology</div>
+            <p class="text-body-secondary">Teaching assistant for Principles of Digital Design
+            <ul class="list-group list-group-flush fa-ul mb-0">
+              <li class="list-group-item">
+                <p class="text-body-secondary">Lead lab sessions with students, while offering feedback and guidance</p>
+              </li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-date fw-light text-md-right">
+            <span class="text-body-secondary">Fall 2019</span>
+            <span class="text-body">·</span>
+            <span class="text-body-tertiary">4 Months</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="text-body mb-0">President of RoboDog</h3>
+            <div class="subheading text-body-secondary mb-3">University of Maryland, Baltimore County</div>
+            <p class="text-body-secondary">Founded and led a team of students to build a robotic dog
+              <!-- <ul class="list-group list-group-flush fa-ul mb-0">
+              <li class="list-group-item"><p class="text-body-secondary">Scouted opportunity, assisted with team build-out and raising capital to bring the project to fruition.</p></li>
+            </ul> -->
+            </p>
+          </div>
+          <div class="resume-date fw-light text-md-right">
+            <span class="text-body-secondary">Fall 2020 - Spring 2021</span>
+            <span class="text-body">·</span>
+            <span class="text-body-tertiary">9 Months</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="text-body mb-0">President of Linux Users Group</h3>
+            <div class="subheading text-body-secondary mb-3">University of Maryland, Baltimore County</div>
+            <p class="text-body-secondary">Prepared lectures and led discussions to educate students about Linux
+              software
+            <ul class="list-group list-group-flush fa-ul mb-0">
+              <!-- <li class="list-group-item"><p class="text-body-secondary">Scouted opportunity, assisted with team build-out and raising capital to bring the project to fruition.</p></li> -->
+            </ul>
+            </p>
+          </div>
+          <div class="resume-date fw-light text-md-right">
+            <span class="text-body-secondary">Fall 2020 - Spring 2021</span>
+            <span class="text-body">·</span>
+            <span class="text-body-tertiary">9 Months</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="text-body mb-0">Vice President of Linux Users Group</h3>
+            <div class="subheading text-body-secondary mb-3">University of Maryland, Baltimore County</div>
+            <p class="text-body-secondary">Managed the clubs yearly reports and attended student organization meetings
+              <!-- <ul class="list-group list-group-flush fa-ul mb-0">
+              <li class="list-group-item"><p class="text-body-secondary">Scouted opportunity, assisted with team build-out and raising capital to bring the project to fruition.</p></li>
+            </ul> -->
+            </p>
+          </div>
+          <div class="resume-date fw-light text-md-right">
+            <span class="text-body-secondary">Fall 2019 - Spring 2020</span>
+            <span class="text-body">·</span>
+            <span class="text-body-tertiary">9 Months</span>
+          </div>
+        </div>
+    </section>
+
+    <!-- <hr class="m-0"> -->
+
+    <section class="resume-section card border-0 p-3 p-lg-5 d-flex justify-content-center" id="clubs">
+      <div class="w-100 card-body">
+        <h2 class="mb-5 text-body text-start text-uppercase">Extracurricular Activities</h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="text-body mb-0">VEX Programmer</h3>
+            <div class="subheading text-body-secondary mb-3">University of Maryland, Baltimore County - Retriever
+              Robotics</div>
+            <p class="text-body-secondary">Programming autonomous period for robots for VEX Worlds Competition
+            <ul class="list-group list-group-flush fa-ul mb-0">
+              <li class="list-group-item">
+                <p class="text-body-secondary">Developed programs using C/C++, C for GUI development using LVGL</p>
+              </li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-date fw-light text-md-right">
+            <span class="text-body-secondary">Spring 2019 - Spring 2021</span>
+            <span class="text-body">·</span>
+            <span class="text-body-tertiary">1 Year</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <hr class="m-0"> -->
+
+    <section class="resume-section card border-0 p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100 card-body">
+        <h2 class="mb-5 text-body text-start text-uppercase">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="text-body mb-0">University of Maryland, Baltimore County</h3>
+            <div class="subheading text-body-secondary mb-3">
+              Computer Engineering, Bachelor of Science
+              <div class="font-monospace">
+                <!-- <br \> -->
+                <b>Overall GPA:</b> <span style="font-family: 'Roboto Mono', monospace;">3.53</span>
+                <!-- <br \>
+                <b>Major GPA:&nbsp;&nbsp;</b> <span style="font-family: 'Roboto Mono', monospace;">3.84</span> -->
+              </div>
+            </div>
+          </div>
+          <div class="resume-date fw-light text-md-right">
+            <span class="text-body-secondary">August 2018 - May 2021</span>
+            <span class="text-body">·</span>
+            <span class="text-body-tertiary">2 Years 9 Months</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- <hr class="m-0"> -->
+
+    <section class="resume-section card border-0 p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100 card-body">
+        <h2 class="mb-5 text-body text-start text-uppercase">Skills</h2>
+
+        <div class="subheading text-body-secondary mb-3">Programming Languages</div>
+
+        <!-- <div class="container text-start">
+          <h1 class="fs-1">
+            <i class="fa-solid fa-c"></i>, 
+            <i class="fa-brands fa-python"></i>, 
+            , 
+            , 
+            , 
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-sql"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z" /><path d="M17 8v8h4" /><path d="M13 15l1 1" /><path d="M3 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1" /></svg>,
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-crunchbase"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19v-14a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><path d="M10.414 11.586a2 2 0 1 0 0 2.828" /><path d="M15 13m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M13 7v6" /></svg>, 
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><linearGradient id="a" x1="16.803" y1="16.631" x2="15.013" y2="22.411" gradientTransform="matrix(1, 0, 0, -1, 0, 32)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#512"></stop><stop offset="0.23" stop-color="#523"></stop><stop offset="0.36" stop-color="#534"></stop><stop offset="0.51" stop-color="#645"></stop><stop offset="0.66" stop-color="#568"></stop><stop offset="0.84" stop-color="#29d"></stop></linearGradient><linearGradient id="b" x1="29.71" y1="18.983" x2="11.71" y2="14.563" gradientUnits="userSpaceOnUse"><stop offset="0.081" stop-color="#c33"></stop><stop offset="0.189" stop-color="#de5239"></stop><stop offset="0.313" stop-color="#f06e3e"></stop><stop offset="0.421" stop-color="#fa8042"></stop><stop offset="0.5" stop-color="#fe8643"></stop><stop offset="0.58" stop-color="#fa7f42"></stop><stop offset="0.696" stop-color="#ef6c3e"></stop><stop offset="0.833" stop-color="#dc4c37"></stop><stop offset="0.916" stop-color="#cf3633"></stop></linearGradient></defs><title>file_type_matlab</title><path d="M2,17.55l7.97-3.22a20.7,20.7,0,0,1,2.72-2.95c.66-.35,1.9-.16,4.17-2.98,2.2-2.75,2.9-5.1,3.93-5.1,1.63,0,2.83,3.52,4.65,8.85A115.629,115.629,0,0,0,30,24.12c-1.9-1.77-3.52-3.68-5.37-3.63-1.72.04-3.63,2.08-5.72,4.7-1.66,2.1-3.86,3.54-4.72,3.51,0,0-2.22-6.28-4.08-7.3a2.641,2.641,0,0,0-2.39.2L2,17.54Z" style="fill:#49d"></path><path d="M19.8,4.02c-.67.9-1.48,2.55-2.94,4.38-2.27,2.82-3.5,2.63-4.17,2.98a19.674,19.674,0,0,0-2.72,2.95l3.3,2.41c2.8-3.82,4.3-7.96,5.47-10.64A13.579,13.579,0,0,1,19.8,4.02Z" style="fill:url(#a)"></path><path d="M20.8,3.3c-2.18,0-3.67,11.48-11.72,17.89,2.26-.37,4.22,5.24,5.12,7.51,4-.68,7.2-8.33,10.43-8.21,1.85.07,3.47,1.86,5.37,3.63C25.66,15,23.63,3.3,20.8,3.3Z" style="fill:url(#b)"></path></g></svg>, 
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><linearGradient id="a" x1="16.803" y1="16.631" x2="15.013" y2="22.411" gradientTransform="matrix(1, 0, 0, -1, 0, 32)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#512"></stop><stop offset="0.23" stop-color="#523"></stop><stop offset="0.36" stop-color="#534"></stop><stop offset="0.51" stop-color="#645"></stop><stop offset="0.66" stop-color="#568"></stop><stop offset="0.84" stop-color="#29d"></stop></linearGradient><linearGradient id="b" x1="29.71" y1="18.983" x2="11.71" y2="14.563" gradientUnits="userSpaceOnUse"><stop offset="0.081" stop-color="#c33"></stop><stop offset="0.189" stop-color="#de5239"></stop><stop offset="0.313" stop-color="#f06e3e"></stop><stop offset="0.421" stop-color="#fa8042"></stop><stop offset="0.5" stop-color="#fe8643"></stop><stop offset="0.58" stop-color="#fa7f42"></stop><stop offset="0.696" stop-color="#ef6c3e"></stop><stop offset="0.833" stop-color="#dc4c37"></stop><stop offset="0.916" stop-color="#cf3633"></stop></linearGradient></defs><title>file_type_matlab</title><path d="M2,17.55l7.97-3.22a20.7,20.7,0,0,1,2.72-2.95c.66-.35,1.9-.16,4.17-2.98,2.2-2.75,2.9-5.1,3.93-5.1,1.63,0,2.83,3.52,4.65,8.85A115.629,115.629,0,0,0,30,24.12c-1.9-1.77-3.52-3.68-5.37-3.63-1.72.04-3.63,2.08-5.72,4.7-1.66,2.1-3.86,3.54-4.72,3.51,0,0-2.22-6.28-4.08-7.3a2.641,2.641,0,0,0-2.39.2L2,17.54Z" style="fill:#49d"></path><path d="M19.8,4.02c-.67.9-1.48,2.55-2.94,4.38-2.27,2.82-3.5,2.63-4.17,2.98a19.674,19.674,0,0,0-2.72,2.95l3.3,2.41c2.8-3.82,4.3-7.96,5.47-10.64A13.579,13.579,0,0,1,19.8,4.02Z" style="fill:url(#a)"></path><path d="M20.8,3.3c-2.18,0-3.67,11.48-11.72,17.89,2.26-.37,4.22,5.24,5.12,7.51,4-.68,7.2-8.33,10.43-8.21,1.85.07,3.47,1.86,5.37,3.63C25.66,15,23.63,3.3,20.8,3.3Z" style="fill:url(#b)"></path></g></svg>, 
+
+          </h1>
+          <h1 class="fs-1">C, C++, C#, Python, Microsoft SQL</h1>
+          <h1 class="fs-1">couchbase, MATLAB, AVR Assembly</h1>
+          <h1 class="fs-1">NASM, .NET, VHDL</h1>
+          <h1 class="fs-1">verilog, system verilog, XML, JSON</h1>
+        </div> -->
+          <div class="container text-center">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/c.svg" alt="C"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_square">
+                <figcaption class="figure-caption fs-3">C</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/cpp.svg" alt="C++"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_square">
+                <figcaption class="figure-caption fs-3">C++</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/c-sharp.svg" alt="C#"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_square">
+                <figcaption class="figure-caption fs-3">C#</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/python.svg" alt="Python"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_square">
+                <figcaption class="figure-caption fs-3">PYTHON</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/sql.svg" alt="MS SQL"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle">
+                <figcaption class="figure-caption fs-3">Microsoft SQL</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/couchbase.svg" alt="couchbase"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_square">
+                <figcaption class="figure-caption fs-3">couchbase</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/matlab.svg" alt="matlab"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_square">
+                <figcaption class="figure-caption fs-3">MATLAB</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/avr_assembly.svg" alt="AVR"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle_l">
+                <figcaption class="figure-caption fs-3">AVR Assembly</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/nasm.svg" alt="nasm"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle_m">
+                <figcaption class="figure-caption fs-3">NASM</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/dotnet.svg" alt="dot net"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle_s">
+                <figcaption class="figure-caption fs-3">.NET</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/VHDL.svg" alt="VHDL"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle">
+                <figcaption class="figure-caption fs-3">VHDL</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/verilog.svg" alt="verilog"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle_s">
+                <figcaption class="figure-caption fs-3">verilog</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/systemverilog.svg" alt="dot net"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle_l">
+                <figcaption class="figure-caption fs-3">system verilog</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/XML.svg" alt="xml"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle">
+                <figcaption class="figure-caption fs-3">XML</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/json.svg" alt="json"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle">
+                <figcaption class="figure-caption fs-3">JSON</figcaption>
+              </figure>
+            </div>
+
+          </div>
+        </div>
+        <div class="subheading text-body-secondary mb-3">Tools</div>
+        <div class="container text-center">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/vmware.svg" alt="vmware"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_square">
+                <figcaption class="figure-caption fs-3">vmware</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/virtualbox.webp" alt="virtualbox"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle_s">
+                <figcaption class="figure-caption fs-3">Virtualbox</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/putty.webp" alt="putty"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_square">
+                <figcaption class="figure-caption fs-3">putty</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/visual-studio.webp" alt="visual studio"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle_m">
+                <figcaption class="figure-caption fs-3">Visual Studio</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/vivado.webp" alt="xilinx vivado"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle_vl">
+                <figcaption class="figure-caption fs-3">XILINX Vivado</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/cadence.svg" alt="Cadence Virtuoso"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle_l">
+                <figcaption class="figure-caption fs-3">Virtuoso</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/atmel.webp" alt="atmel studio"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_rectangle_s">
+                <figcaption class="figure-caption fs-3">Atmel Studio</figcaption>
+              </figure>
+            </div>
+
+            <div class="col image-container" style="--bs-border-opacity: .5;">
+              <figure class="figure">
+                <img src="images/icons/django.svg" alt="django"
+                  class="figure-img img-fluid img-thumbnail shadow-sm bg-white opacity-75 programming_icon_square">
+                <figcaption class="figure-caption fs-3">DJANGO</figcaption>
+              </figure>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="subheading text-body-secondary mb-3">Workflow</div>
+        <ul class="list-group list-group-flush fa-ul mb-0">
+          <li class="list-group-item">
+            <p class="text-body-secondary">
+              <i class="fa-regular fa-square-check"></i>
+              GitHub
+            </p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary">
+              <i class="fa-regular fa-square-check"></i>
+              GitLab
+            </p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary">
+              <i class="fa-regular fa-square-check"></i>
+              Microsoft DevOps
+            </p>
+          </li>
+        </ul>
+
+        <div class="subheading text-body-secondary mb-3">Relevant Coursework</div>
+        <ul class="list-group list-group-flush fa-ul mb-0">
+          <li class="list-group-item">
+            <p class="text-body-secondary"><i class="fa-regular fa-square-check"></i>Software Engineering Principles</p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary"><i class="fa-regular fa-square-check"></i>Principles of Operating Systems</p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary"><i class="fa-regular fa-square-check"></i>C Programming and Embedded Systems
+            </p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary"><i class="fa-regular fa-square-check"></i>Principles of VLSI Design</p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary"><i class="fa-regular fa-square-check"></i>FPGA Architecture</p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary"><i class="fa-regular fa-square-check"></i>Data Structures</p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary"><i class="fa-regular fa-square-check"></i>Hardware Security</p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary"><i class="fa-regular fa-square-check"></i>Computer Engineering
+              Capstone/Professional
+              Practice</p>
+          </li>
+        </ul>
+
+        <div class="subheading text-body-secondary mb-3">Operating Systems</div>
+        <ul class="list-group list-group-flush fa-ul mb-0">
+          <li class="list-group-item">
+            <p class="text-body-secondary">
+              <i class="fa-regular fa-square-check"></i>
+              Microsoft Windows
+            </p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary">
+              <i class="fa-regular fa-square-check"></i>
+              Unix Systems
+            </p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary">
+              <i class="fa-regular fa-square-check"></i>
+              Ubuntu, Red Hat, Fedora, Debian, Cent OS
+            </p>
+          </li>
+        </ul>
+
+        <div class="subheading text-body-secondary mb-3">Languages</div>
+        <ul class="list-group list-group-flush fa-ul mb-0">
+          <li class="list-group-item">
+            <p class="text-body-secondary">
+              <i class="fa-regular fa-square-check"></i>
+              <b>Fluent:</b> Spanish
+            </p>
+          </li>
+        </ul>
+
+    </section>
+
+    <!-- <hr class="m-0"> -->
+
+    <section class="resume-section card border-0 p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100 card-body">
+        <h2 class="mb-5 text-body text-start text-uppercase">Interests</h2>
+        <ul class="list-group list-group-flush fa-ul mb-0">
+          <li class="list-group-item">
+            <p class="text-body-secondary">
+              <i class="fa-regular fa-square-check"></i>
+              Riding bicycles
+            </p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary">
+              <i class="fa-regular fa-square-check"></i>
+              Playing videogames
+            </p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary">
+              <i class="fa-regular fa-square-check"></i>
+              Reading sci-fi books
+            </p>
+          </li>
+          <li class="list-group-item">
+            <p class="text-body-secondary">
+              <i class="fa-regular fa-square-check"></i>
+              Fix electronic components.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- <hr class="m-0"> -->
+
+    <section class="resume-section card border-0 p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100 card-body">
+        <h2 class="mb-5 text-body text-start text-uppercase">Awards</h2>
+        <ul class="list-group list-group-flush fa-ul mb-0">
+          <li class="list-group-item">
+            <i class="fa-solid fa-trophy text-warning"></i>
+            <p class="text-body-secondary"><b>2019 Vex Worlds:</b> 4th place in Design Division for UMBC </p>
+          </li>
+          <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.robotevents.com/robot-competitions/college-competition/RE-VEXU-18-6071.html#results"
+            target="_blank">
+            Competition Results
+          </a>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<div class="page-footer container-fluid">
+  <div class="text-center">
+    <footer>
+      <p>
+        © 2024 Edwin Trejo.
+      </p>
+    </footer>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+<script src="vendor/fontawesome-free-6.4.2-web/js/fontawesome.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/resume.min.js"></script>
+
+<script defer>
+  document.getElementById('btnSwitch').addEventListener('click', () => {
+    if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+      document.documentElement.setAttribute('data-bs-theme', 'light');
+    }
+    else {
+      document.documentElement.setAttribute('data-bs-theme', 'dark');
+    }
+  });
+</script>
+
 </body>
+
 </html>
